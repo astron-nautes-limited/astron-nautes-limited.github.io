@@ -1,6 +1,6 @@
 @import "../../bootstrap-4.2.1/scss/_functions.scss";
 
-$blue:    #313B72;
+$blue:    #5F7593;
 $indigo:  #462255;
 $red:     #AF1B3F;
 $yellow:  #CCFF00;
@@ -16,6 +16,6 @@ $enable-rounded:              false;
 $headings-font-family:        $font-family-sans-serif;
 $headings-font-weight:        300;
 
-$jumbotron-bg:                $indigo;
+$jumbotron-bg:                $blue;
 
 @import "../../bootstrap-4.2.1/scss/bootstrap.scss";
