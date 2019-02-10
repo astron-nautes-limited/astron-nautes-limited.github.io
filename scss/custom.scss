@@ -1,13 +1,14 @@
 @import "../../bootstrap-4.2.1/scss/_functions.scss";
 
-$blue:    #344576;
-$indigo:  #462255;
+$blue:    #5F7593;
+$indigo:  #344576;
 $red:     #AF1B3F;
-$yellow:  #CCFF00;
+$yellow:  #ADAC66;
 $green:   #62A87C;
-$white:   #D7D9B1;
+$white:   #8C9992;
+$black:   #262B2E;
 
-$primary:  $indigo;
+$primary:  $blue;
 $font-family-sans-serif:      "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-monospace:       "Courier New", monospace;
 $font-family-base:            $font-family-monospace;
@@ -16,6 +17,6 @@ $enable-rounded:              false;
 $headings-font-family:        $font-family-sans-serif;
 $headings-font-weight:        300;
 
-$jumbotron-bg:                $blue;
+$jumbotron-bg:                $indigo;
 
 @import "../../bootstrap-4.2.1/scss/bootstrap.scss";
