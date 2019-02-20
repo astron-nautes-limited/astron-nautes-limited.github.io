@@ -1,13 +1,15 @@
 @import "../../bootstrap-4.2.1/scss/_functions.scss";
 
-$blue:    #5F7593;
-$indigo:  #344576;
-$red:     #AF1B3F;
-$yellow:  #ADAC66;
-$green:   #62A87C;
-$white:   #FDFFFC;
-$black:   #262B2E;
-$gray-200: #e9ecef;
+$black:   #0C120C;
+$red:     #A30000;
+$orange:  #FF7700;
+$yellow:  #CCFF00;
+$green:   #6C8F38;
+$teal:    #00AFB5;
+$blue:    #0033A0;
+$indigo:  #4E008E;
+$pink:    #D1BCE3;
+$white:   #E7ECEF;
 
 $primary:  $blue;
 $font-family-sans-serif:      "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -18,6 +20,6 @@ $enable-rounded:              false;
 $headings-font-family:        $font-family-sans-serif;
 $headings-font-weight:        300;
 
-$jumbotron-bg:                $gray-200;
+$jumbotron-bg:                $blue;
 
 @import "../../bootstrap-4.2.1/scss/bootstrap.scss";
