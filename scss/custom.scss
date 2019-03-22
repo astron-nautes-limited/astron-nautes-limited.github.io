@@ -1,25 +1,25 @@
 @import "../../bootstrap-4.2.1/scss/_functions.scss";
 
-$black:   #0C120C;
-$red:     #A30000;
-$orange:  #FF7700;
-$yellow:  #CCFF00;
-$green:   #6C8F38;
-$teal:    #00AFB5;
-$blue:    #21438C;
-$indigo:  #4E008E;
-$pink:    #D1BCE3;
-$white:   #E7ECEF;
+$black: #0c120c;
+$red: #a30000;
+$orange: #ff7700;
+$yellow: #ccff00;
+$green: #6c8f38;
+$teal: #00afb5;
+$blue: #21438c;
+$indigo: #4e008e;
+$pink: #d1bce3;
+$white: #e7ecef;
 
-$primary:  $yellow;
-$font-family-sans-serif:      'Questrial', Helvetica, Arial, sans-serif;
-$font-family-monospace:       'Source Sans Pro', monospace;
-$font-family-base:            $font-family-sans-serif;
-$enable-rounded:              false;
+$primary: $yellow;
+$font-family-sans-serif: "Questrial", Helvetica, Arial, sans-serif;
+$font-family-monospace: "Source Sans Pro", monospace;
+$font-family-base: $font-family-sans-serif;
+$enable-rounded: false;
 
-$headings-font-family:        $font-family-sans-serif;
-$headings-font-weight:        300;
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 300;
 
-$jumbotron-bg:                $blue;
+$jumbotron-bg: $blue;
 
 @import "../../bootstrap-4.2.1/scss/bootstrap.scss";

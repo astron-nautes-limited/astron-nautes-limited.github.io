@@ -6,17 +6,24 @@ body {
 .jumbotron {
   background-size: cover;
   height: 959px;
+  margin-bottom: 0;
+}
+
+.diamond {
+  background-color: rgba(0, 175, 181, 0.1);
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .black {
   color: black;
   font-size: 1.3em;
-  background-color: #D9E76CC4;
+  background-color: #d9e76cc4;
   padding: 1em;
 }
 
 .candidate {
-  background-color: #611C35C4;
+  background-color: #611c35c4;
   padding: 1em;
 }
 
@@ -25,5 +32,5 @@ footer {
 }
 
 .fa-heart {
-  color: #A30000;
+  color: #a30000;
 }
