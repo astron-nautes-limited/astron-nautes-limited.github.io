@@ -9,6 +9,13 @@ body {
   margin-bottom: 0;
 }
 
+.contact-tron {
+  background: linear-gradient(rgba(24, 24, 24, 0.4), rgba(24, 24, 24, 0.4)),
+    url(../img/contact-print.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
 .diamond {
   background-color: rgba(0, 175, 181, 0.1);
   padding-top: 3em;
@@ -23,7 +30,7 @@ body {
 }
 
 .candidate {
-  background-color: #611c35c4;
+  background-color: rgba(0, 175, 181, 0.8);
   padding: 1em;
 }
 
@@ -33,4 +40,78 @@ footer {
 
 .fa-heart {
   color: #a30000;
+}
+
+.hero {
+  background: linear-gradient(rgba(24, 24, 24, 0.4), rgba(24, 24, 24, 0.4)),
+    url(../img/contact-print.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.signin {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.hero {
+  position: relative;
+  background-color: #f9fafb;
+  height: 100vh;
+  min-height: 500px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.h-back {
+  height: 70vh;
+}
+
+.north {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.collab {
+  padding-bottom: 5em;
 }
